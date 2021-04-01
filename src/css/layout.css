@@ -40,9 +40,9 @@ body { background: #0f0f0f; }
  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
  
     display: inline-block;
-    padding: 8px 13px;
+    padding: 8px 30px 13px;
     line-height: 32px;
-     text-decoration: none;
+    text-decoration: none;
     text-align: left;
     color: #0e0d0d;
  
@@ -53,8 +53,8 @@ body { background: #0f0f0f; }
      transition: color .2s ease-in-out;
  }
 
- /* header banner I am */
 
+ /* header banner I am */
 
  header .banner {
     display: inline-block;
@@ -67,10 +67,14 @@ body { background: #0f0f0f; }
 
  header .banner-text { width: 100%; }
  header .banner-text h1 {
-    font: 60px/1.1em 'opensans', sans-serif;
-    color: rgb(61, 57, 57);
-    letter-spacing: -1px;
-    margin: 40px 0px 20px 0px;
+    font: 70px/1.1em "opensans-bold", sans-serif;
+    font-weight: bold;
+    /* color: rgb(61, 57, 57); */
+    color: #fff;
+    letter-spacing: -2px;
+    width: 80%;
+    margin: 120px 0px 20px 80px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
  }
  header .banner-text h3 {
     font: 20px/1.9em 'librebaskerville-regular', serif;
@@ -82,6 +86,7 @@ body { background: #0f0f0f; }
 
 
  /* header social links */
+
 header .social {
     margin: 24px 0;
     padding: 0;
