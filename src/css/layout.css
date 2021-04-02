@@ -20,19 +20,20 @@ body { background: #fff; }
     color: #0f1f24;
   }
 
-  ul#nav {
+nav {
     min-height: 48px;
     width: auto;
  
     /* center align the menu */
     text-align: center;
  }
- ul#nav li {
+
+ /* #nav {
     position: relative;
     list-style: none;
     height: 48px;
     display: inline-block;
- }
+ } */
  
  /* Links */
 
@@ -97,3 +98,47 @@ header .social {
  }
  header .social li a { color: #ebe1e1; }
  header .social li a:hover { color: #ed995d; }
+
+ /* About section */
+
+ #about {
+    background: #adbec8;
+    padding-bottom: 166px;
+    overflow: hidden;
+ }
+
+ #about .row {
+     display: flex;
+ }
+ #about .profile-section {
+   padding-top: 50px;
+   padding-left: 50px;
+ }
+ #about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ }
+
+ /* column widths */
+
+ .column, .columns {
+    /* position: relative; */
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+ }
+
+.row .one         { width: 8.33333%; }
+.row .two         { width: 16.66667%; }
+.row .three       { width: 25%; }
+.row .four        { width: 33.33333%; }
+.row .five        { width: 41.66667%; }
+.row .six         { width: 50%; }
+.row .seven       { width: 58.33333%; }
+.row .eight       { width: 66.66667%; }
+.row .nine        { width: 75%; }
+.row .ten         { width: 83.33333%; }
+.row .eleven      { width: 91.66667%; }
+.row .twelve      { width: 100%; }

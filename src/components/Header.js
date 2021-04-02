@@ -10,29 +10,6 @@ function Header() {
         <header className="App-background">
             <Navbar />
 
-            {/* <nav>
-                <NavLink className="navbar-item"
-                    activeClassName="is-active"
-                    to="/"
-                > Home </NavLink>
-
-                <NavLink className="navbar-item"
-                    activeClassName="is-active"
-                    to="/works"
-                > Works  </NavLink>
-
-                <NavLink className="navbar-item"
-                    activeClassName="is-active"
-                    to="/about"
-                > About  </NavLink>
-
-                <NavLink className="navbar-item"
-                    activeClassName="is-active"
-                    to="/contact"
-                > Contact  </NavLink>
-
-            </nav> */}
-
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">I am Kimberley Heuer.</h1>
