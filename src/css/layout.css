@@ -1,4 +1,4 @@
-body { background: #0f0f0f; }
+body { background: #fff; }
 
 .App {
     text-align: center;
@@ -35,24 +35,21 @@ body { background: #0f0f0f; }
  }
  
  /* Links */
- ul#nav li a {
- 
- /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
- 
+
+ .navbar-item {
     display: inline-block;
     padding: 8px 30px 13px;
     line-height: 32px;
     text-decoration: none;
     text-align: left;
     color: #0e0d0d;
- 
-     -webkit-transition: color .2s ease-in-out;
-     -moz-transition: color .2s ease-in-out;
-     -o-transition: color .2s ease-in-out;
-     -ms-transition: color .2s ease-in-out;
-     transition: color .2s ease-in-out;
- }
 
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+ }
 
  /* header banner I am */
 

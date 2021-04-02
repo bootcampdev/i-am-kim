@@ -1,12 +1,13 @@
-import React from "react"
+import React from 'react'
+import Navbar from "./Navbar.js"
 
-
-
-function Works () {
-    return(
-
-
+const Works = () => {
+    return (
+        <div>
+            <Navbar />
+            <h2>works</h2>
+        </div>
     )
 }
 
-export default Works;
+export default Works

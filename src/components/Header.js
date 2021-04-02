@@ -1,19 +1,37 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import Navbar from "./Navbar.js"
 import "../css/layout.css";
+
 
 function Header() {
     return (
         //   
         <header className="App-background">
-            <nav>
-                <ul id="nav" className="nav">
-                    <li><a className="smoothscroll" href="#home">Home</a></li>
-                    <li><a className="smoothscroll" href="#about">About</a></li>
-                    <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                    <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                    <li><a className="smoothscroll" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <Navbar />
+
+            {/* <nav>
+                <NavLink className="navbar-item"
+                    activeClassName="is-active"
+                    to="/"
+                > Home </NavLink>
+
+                <NavLink className="navbar-item"
+                    activeClassName="is-active"
+                    to="/works"
+                > Works  </NavLink>
+
+                <NavLink className="navbar-item"
+                    activeClassName="is-active"
+                    to="/about"
+                > About  </NavLink>
+
+                <NavLink className="navbar-item"
+                    activeClassName="is-active"
+                    to="/contact"
+                > Contact  </NavLink>
+
+            </nav> */}
 
             <div className="row banner">
                 <div className="banner-text">
