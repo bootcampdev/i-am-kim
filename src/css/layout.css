@@ -1,4 +1,4 @@
-body { background: #fff; }
+body { background: whitesmoke; }
 
 .App {
     text-align: center;
@@ -108,7 +108,8 @@ header .social {
  }
 
  #about .row {
-     display: flex;
+     display: block;
+     /* display: -webkit-inline-box; */
  }
  #about .profile-section {
    padding-top: 50px;
@@ -119,6 +120,11 @@ header .social {
     width: 120px;
     height: 120px;
     border-radius: 100%;
+ }
+
+ #about .email {
+     color: whitesmoke;
+     margin-right: 10px;
  }
 
  /* column widths */

@@ -28,7 +28,7 @@ function Header() {
                             </a>
                         </li>
                         <li key="email">
-                            <a href="mailto:kimberleyheuer@hotmail.com">
+                            <a href="mailto:kheuer9@gmail.com">
                                 <i className="fa fa-envelope"></i>
                             </a>
                         </li>

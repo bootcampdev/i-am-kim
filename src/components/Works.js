@@ -3,10 +3,9 @@ import Navbar from "./Navbar.js"
 
 const Works = () => {
     return (
-        <div>
+        <section id="about">
             <Navbar />
-            <h2>works</h2>
-        </div>
+            </section>
     )
 }
 
