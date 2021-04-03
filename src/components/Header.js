@@ -12,7 +12,7 @@ function Header() {
 
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">I am Kimberley Heuer.</h1>
+                    <h1 className="responsive-headline">Meet Kimberley Heuer.</h1>
                     <h3 style={{ color: '#f6f5ed', fontFamily: 'sans-serif ' }}>I am a DevOps developer who loves technology and applied science.  I am a avid cyclist who loves to cook and always striving to make my garden produce. I dig to get my hands dirty and code!
                     </h3>
 
