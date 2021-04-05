@@ -15,7 +15,7 @@ const Works = () => {
         <Navbar />      
       
 
-        <div className="wrapper App-background">
+        <div className="wrapper">
 
             { portfolio.map(work => (
                 <WorkCard

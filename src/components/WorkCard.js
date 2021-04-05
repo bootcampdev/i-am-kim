@@ -16,8 +16,10 @@ const WorkCard = (props) => {
                     </li>
                     <li>                       
                         <a href={ props.deploymentsite } 
-                        style={{ marginRight: 30 }}>Run Example</a>
-                        <a href={ props.githubsite }>Code Repository</a>
+                        style={{ marginRight: 30 }} target="_blank">
+                            Run Example</a>
+                        <a href={ props.githubsite } target="_blank">
+                            Code Repository</a>
                     </li>
                     <li>
                         <strong>Features:</strong>

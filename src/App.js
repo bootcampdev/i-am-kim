@@ -4,8 +4,6 @@ import Header from "./components/Header.js"
 import About from "./components/About.js"
 import Works from "./components/Works.js"
 import Contact from "./components/Contact.js"
-import Navbar from "./components/Navbar.js"
-
 
 
 function App() {
