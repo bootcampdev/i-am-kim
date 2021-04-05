@@ -26,7 +26,8 @@ function About() {
                                 <i className="fa fa-envelope email"></i>
                             </a>
                         kheuer9@gmail.com <br></br><br></br>
-                        <a href="https://bootcampdev.github.io/kimberley-heuer.github.io/images/kheuer-resume.pdf" target="_blank">
+                        <a href="https://bootcampdev.github.io/kimberley-heuer.github.io/images/kheuer-resume.pdf" 
+                        target="_blank" rel="noopener noreferrer">
                                 <i className="material-icons email" >article</i>
                             </a>Resume
                         </p>
