@@ -22,7 +22,7 @@ function App() {
     // </main>
 
     <BrowserRouter>
-   
+
       <div >
         <Switch>
           <Route exact path="/">
@@ -36,6 +36,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <About />
+          </Route>
+          <Route path="*">
+            <Header />
           </Route>
         </Switch>
       </div>
