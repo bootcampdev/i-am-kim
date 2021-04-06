@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar.js"
 import WorkCard from "./WorkCard.js"
+import Footer from "./Footer.js"
 import Wrapper from "./Wrapper.js"
 import portfolio from "../portfolio.json";
 
@@ -27,7 +28,7 @@ const Works = () => {
                     />
             )) }
         </div> 
-
+<Footer />
         </section>
        
     )
