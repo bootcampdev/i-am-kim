@@ -3,13 +3,13 @@ import Navbar from "./Navbar.js"
 import WorkCard from "./WorkCard.js"
 import Footer from "./Footer.js"
 import Wrapper from "./Wrapper.js"
-import portfolio from "../portfolio.json";
-import image1 from "../images/moody.jpg"
+import portfolio from "../portfolio.js";
+//import image1 from "../images/moody.jpg"
 
 
 const Works = () => {
 
-    //console.log("heere", JSON.parse(portfolio))
+    console.log(portfolio)
 
     return (
 

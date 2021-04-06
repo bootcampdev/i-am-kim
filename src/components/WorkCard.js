@@ -5,7 +5,7 @@ const WorkCard = (props) => {
     console.log(props);
 
     // let values = {props.features}.join();
-    console.log(props)
+    
     return (
         <div className="work-card">
             <div className="img-container">
