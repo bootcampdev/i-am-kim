@@ -1,6 +1,6 @@
 {
-  "name": "kheuer-portfolio",    
-  "homepage": "https://bootcampdev.github.io/kheuer-portfolio",
+  "name": "kheuer-portfolio",
+  "homepage": "https://bootcampdev.github.io/kheuer-portfolio",    
   "version": "0.1.0",
   "private": true,
   "dependencies": {
