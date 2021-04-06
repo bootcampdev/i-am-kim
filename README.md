@@ -13,7 +13,7 @@ Given the opportunity to rebuild my portfolio with React, I've redesign the orig
 
 * Updated portfolio featuring 6 total projects
 
-* Use React
+* Uses React
 
 * Portfolio data is stored in a json file, `portfolio.json` that can be updated at with new projects data.  This allow the site to display current information without having to redeploy.
 
@@ -42,6 +42,7 @@ Given the opportunity to rebuild my portfolio with React, I've redesign the orig
 
 * [React](#react)
 
+
 ### Updated Portfolio
 
 Has:
@@ -58,7 +59,8 @@ Has:
 
   * Link to the GitHub repository
 
-  
+  [GitHub Portfolio](https://github.com/bootcampdev/i-am-kim)         
+  [SPA Portfolio App](https://bootcampdev.github.io/i-am-kim/)
 
   ![demo](meetkimberleyheuer.JPG)
 
