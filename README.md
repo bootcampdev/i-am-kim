@@ -15,7 +15,7 @@ Given the opportunity to rebuild my portfolio with React, I've redesign the orig
 
 * Uses React
 
-* Portfolio data is stored in a json file, `portfolio.json` that can be updated at with new projects data.  This allow the site to display current information without having to redeploy.
+* Portfolio data is stored in a javascript file, `portfolio.js` that can be updated at with new projects data.  This allow the site to display current information without having to redeploy.
 
 ### React
 
