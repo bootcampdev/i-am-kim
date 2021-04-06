@@ -1,6 +1,11 @@
 import React from 'react'
 
 const WorkCard = (props) => {
+
+    console.log(props);
+
+    // let values = {props.features}.join();
+    console.log(props)
     return (
         <div className="work-card">
             <div className="img-container">
@@ -24,9 +29,9 @@ const WorkCard = (props) => {
                             Code Repository</a>
                     </li>
                     <li>
-                        <strong>Features:</strong>
-                        {/* { props.features.join(" ") } */}
-                        {/* return ({ props.features.reduce( (accumulator, feature)=> accumulator + ", " + feature) }) */}
+                        <strong>Features: </strong>
+                        { props.features } 
+                       
                     </li>
                 </ul>
             </div>
