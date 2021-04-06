@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar.js"
 import Footer from "./Footer.js"
-import MePic from "../images/mePic.jpg"
+import MePic from "../images/mePic2.jpg"
 
 function About() {
     return (
@@ -13,10 +13,10 @@ function About() {
 
                 <div className="row">
 
-                    <div className="two column">
+                    <div className="three column">
                         <img className="profile-pic" src={MePic} alt="" />
                     </div>
-                    <div className="eight column">
+                    <div className="seven column">
                         <h2>About Me</h2>
                         <p>I'm currently working with Northwestern University supporting the Office for Research and compliance systems. I enjoy science and technology and will go to great lengths to learn new technologies and how to best apply them to my applications. I've worked with pharmaceutical companies supporting both chemistry and biology teams. It is important and it is my goal is to understand their discipline and apply the technology that best accomplish these goals and objectives for their applications. </p>
                     </div>
@@ -26,7 +26,7 @@ function About() {
                     <div className="three column">
                         <h2>Contact Details</h2>
                         <p>Kimberley Heuer <br></br>
-                        United States, Illinois <br></br> <br></br>
+                        Arlington Heights, Illinois <br></br> <br></br>
                             <a href="mailto:kheuer9@gmail.com">
                                 <i className="fa fa-envelope email"></i>
                             </a>
@@ -41,10 +41,11 @@ function About() {
                         <h2>Technical Experience</h2>
                         <ul className="social">
                             <li>HTML5</li>
-                            <li>JavaScript/Jquery</li>
+                            <li>JavaScript/Jquery</li>                            
                             <li>SQL Server/My SQL/Oracle/Mongo</li>
                             <li>Node.js/Express</li>
                             <li>API</li>
+                            <li>C#</li>
                         </ul>
 
                     </div>
