@@ -65,7 +65,21 @@ const portfolio = [
           "Module inquirer-recursive, ",
           "Use of input types"
             ]
+      },
+      {
+        "id": 6,
+        "name": "React Search",
+        "image": `${process.env.PUBLIC_URL}/images/search.jpg`,
+        "description": "This example creates an employee directory with React. This application breaks up the UI into components, manage component state, and respond to user events.",
+        "githubsite": "https://github.com/bootcampdev/employee-directory-19/tree/source",
+        "deploymentsite": "https://bootcampdev.github.io/employee-directory-19/",
+        "features": [        
+          "React app with Navbar, ",
+          "API call to Rando User, ",
+          "boot-strap-table-next and toolkit"
+            ]
       }
+
   ]
 
   export default portfolio
