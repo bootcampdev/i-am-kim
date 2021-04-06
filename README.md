@@ -89,6 +89,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+### `npm run deploy'
+
+Make sure to add 
+"homepage": "https://myusername.github.io/i-am-kim"
+to package.json for react deployment
+This will deo the build for you.
+
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
