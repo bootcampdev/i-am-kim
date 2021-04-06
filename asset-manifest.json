@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/i-am-kim/static/css/main.398e934a.chunk.css",
+    "main.js": "/i-am-kim/static/js/main.85b5ea8a.chunk.js",
+    "main.js.map": "/i-am-kim/static/js/main.85b5ea8a.chunk.js.map",
+    "runtime-main.js": "/i-am-kim/static/js/runtime-main.74d0aaed.js",
+    "runtime-main.js.map": "/i-am-kim/static/js/runtime-main.74d0aaed.js.map",
+    "static/js/2.0e8f9685.chunk.js": "/i-am-kim/static/js/2.0e8f9685.chunk.js",
+    "static/js/2.0e8f9685.chunk.js.map": "/i-am-kim/static/js/2.0e8f9685.chunk.js.map",
+    "static/js/3.197683b8.chunk.js": "/i-am-kim/static/js/3.197683b8.chunk.js",
+    "static/js/3.197683b8.chunk.js.map": "/i-am-kim/static/js/3.197683b8.chunk.js.map",
+    "index.html": "/i-am-kim/index.html",
+    "static/css/main.398e934a.chunk.css.map": "/i-am-kim/static/css/main.398e934a.chunk.css.map",
+    "static/js/2.0e8f9685.chunk.js.LICENSE.txt": "/i-am-kim/static/js/2.0e8f9685.chunk.js.LICENSE.txt",
+    "static/media/layout.css": "/i-am-kim/static/media/header-background.4db14eef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74d0aaed.js",
+    "static/js/2.0e8f9685.chunk.js",
+    "static/css/main.398e934a.chunk.css",
+    "static/js/main.85b5ea8a.chunk.js"
+  ]
+}
