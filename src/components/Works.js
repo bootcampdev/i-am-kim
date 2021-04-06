@@ -11,26 +11,26 @@ const Works = () => {
 
     return (
 
-        <section id="works">           
-        <Navbar />            
+        <section id="works">
+            <Navbar />
 
-        <div className="wrapper">
+            <div className="wrapper">
 
-            { portfolio.map(work => (
-                <WorkCard
-                    id={work.id}
-                    key={work.id}
-                    name={work.name}
-                    image={work.image}
-                    description={work.description}
-                    githubsite={work.githubsite}
-                    deploymentsite={work.deploymentsite}
+                {portfolio.map(work => (
+                    <WorkCard
+                        id={work.id}
+                        key={work.id}
+                        name={work.name}
+                        image={work.image}
+                        description={work.description}
+                        githubsite={work.githubsite}
+                        deploymentsite={work.deploymentsite}
                     />
-            )) }
-        </div> 
-<Footer />
+                ))}
+            </div>
+            <Footer />
         </section>
-       
+
     )
 }
 
